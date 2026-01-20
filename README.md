@@ -66,5 +66,5 @@ By intentionally limiting automation under uncertainty, the system achieves zero
 
 Jithakrishna Prakash  
 📧 jprakashoff@gmail.com  
-🔗 LinkedIn: https://linkedin.com/in/jithakrishna.prakash  
+🔗 LinkedIn: https://linkedin.com/in/jithakrishna-prakash  
 💻 GitHub: https://github.com/TheFifthPostulate
