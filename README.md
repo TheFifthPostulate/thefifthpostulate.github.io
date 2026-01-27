@@ -55,9 +55,9 @@ The core contribution is a selective inference control system that extracts addi
 - Quantitative analysis of automation–review tradeoffs in safety-critical inference
 
 **Artifacts:**
-📄 Methods Note (PDF): (link)
-📊 Analysis Notebook / Demo: [https://thefifthpostulate.github.io/Geometric-Risk-Modeling/geometric_risk_modeling.html](https://thefifthpostulate.github.io/Geometric-Risk-Modeling/geometric_risk_modeling.html)
-💻 Source Code: Available upon request
+- 📄 Methods Note (PDF): (link)
+- 📊 Analysis Notebook / Demo: [https://thefifthpostulate.github.io/Geometric-Risk-Modeling/geometric_risk_modeling.html](https://thefifthpostulate.github.io/Geometric-Risk-Modeling/geometric_risk_modeling.html)
+- 💻 Source Code: Available upon request
 
 **Key takeaway:**
 By explicitly modeling geometric failure modes and enforcing selective abstention, this system transforms a high-performance classifier into a controllable decision system with principled human oversight, illustrating a general framework for deploying machine learning safely in high-stakes environments.
