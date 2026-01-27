@@ -41,26 +41,26 @@ It demonstrates both a principled Bayesian modeling approach and the structural 
 **Key takeaway:**  
 Uncertainty modeling revealed the true complexity of the consumption process. Assumptions about the stochastic process and decision rule were insufficient to consistently provide decision-grade forecasts, making expert oversight more reliable than fully automated inventory control.
 
-## Project 2 — Human-in-the-Loop Diagnostic Classification (BCW)
+## Project 2 — Geometry-Based Risk Modeling for Safe ML Inference in Medical Diagnostic Triage
 
-This project builds a safety-aware diagnostic classification system on the Breast Cancer Wisconsin dataset, explicitly optimizing the tradeoff between automation rate and misclassification risk.
-
-Rather than maximizing overall accuracy, the system sacrifices automated coverage to enforce a zero–false-negative constraint by routing uncertain predictions to human review.
+This project develops a safety-aware diagnostic inference system on the Breast Cancer Wisconsin dataset that explicitly models and intercepts failure modes in probabilistic classifiers.
+Rather than optimizing for overall accuracy, the system introduces a **post-classification reliability layer** that detects high-risk predictions using geometry-derived signals and routes them to human review, enforcing a **zero–false-negative constraint** in clinically ambiguous regions.
+The core contribution is a selective inference control system that extracts additional risk signals from the information geometry of class-conditional feature manifolds, enabling reliable automation in the presence of deep class overlap and overconfident model failures.
 
 **Key contributions:**
-- Probabilistic classification with uncertainty quantification  
-- Decision policy that throttles automation under low-confidence predictions  
-- Explicit false-negative risk constraints for safety-critical deployment  
-- Dynamic abstention mechanism to trigger human-in-the-loop review  
-- Evaluation of automation–accuracy tradeoffs under uncertainty  
+- Geometry-derived risk signals that expose hidden false-negative failure modes beyond model probabilities
+- Selective inference policy that enforces zero false negatives via principled abstention
+- Reliability layer decoupled from the base classifier, enabling controllable human-in-the-loop deployment
+- Bootstrap-validated decision thresholds for stability under retraining and sampling uncertainty
+- Quantitative analysis of automation–review tradeoffs in safety-critical inference
 
 **Artifacts:**
-- 📄 Methods Note (PDF): *(coming soon)*  
-- 📊 Notebook / Demo: *(link)*  
-- 💻 Source Code: *(link)*  
+📄 Methods Note (PDF): (link)
+📊 Analysis Notebook / Demo: [https://thefifthpostulate.github.io/Geometric-Risk-Modeling/geometric_risk_modeling.html](https://thefifthpostulate.github.io/Geometric-Risk-Modeling/geometric_risk_modeling.html)
+💻 Source Code: Available upon request
 
-**Key takeaway:**  
-By intentionally limiting automation under uncertainty, the system achieves zero false negatives at the cost of reduced automated throughput, illustrating a principled approach to safe deployment in high-stakes classification settings.
+**Key takeaway:**
+By explicitly modeling geometric failure modes and enforcing selective abstention, this system transforms a high-performance classifier into a controllable decision system with principled human oversight, illustrating a general framework for deploying machine learning safely in high-stakes environments.
 
 ## Contact
 
