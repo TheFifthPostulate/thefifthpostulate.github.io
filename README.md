@@ -73,10 +73,10 @@ Stacking these contributions forms an evidence vector for each observation.
 
 Working in this space provides several advantages:  
 
--- heterogeneous features become comparable
--- evidence accumulates additively
--- population structure becomes analyzable
--- case-level risk can be decomposed
+- heterogeneous features become comparable
+- evidence accumulates additively
+- population structure becomes analyzable
+- case-level risk can be decomposed
 
 This connects the framework to **classical likelihood ratio testing and Bayesian evidence accumulation**.  
 
@@ -108,9 +108,9 @@ Detects activation of correlated pathological feature bundles.
   
 Current work focuses on:  
 
--- extending the framework to large clinical datasets (MIMIC-IV / eICU)
--- exploring temporal risk signal evolution
--- integrating triage policies based on evidence structure
+- extending the framework to large clinical datasets (MIMIC-IV / eICU)
+- exploring temporal risk signal evolution
+- integrating triage policies based on evidence structure
   
 ## Contact
 
