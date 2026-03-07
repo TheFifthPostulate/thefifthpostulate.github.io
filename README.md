@@ -50,8 +50,6 @@ Instead of producing a single probability score, it decomposes model predictions
 
 The framework transforms heterogeneous features into a **unified log-likelihood ratio evidence space, allowing risk to be analyzed geometrically**.
 
-**Repository**  
-
 **GitHub Repo**  
 [https://github.com/TheFifthPostulate/evidence-geometry/tree/main](https://github.com/TheFifthPostulate/evidence-geometry/tree/main)
   
