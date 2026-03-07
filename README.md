@@ -67,7 +67,7 @@ The framework transforms heterogeneous features into a **unified log-likelihood 
 
 Each feature contributes log-likelihood ratio evidence:
 
-$log~p(x_{i} | positive class) − log~p(x_{i} | negative class)$  
+$log(p(x_{i} | positive class)) − log(p(x_{i} | negative class))$  
   
 Stacking these contributions forms an evidence vector for each observation.
 
