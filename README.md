@@ -41,7 +41,7 @@ It demonstrates both a principled Bayesian modeling approach and the structural 
 **Key takeaway:**  
 Uncertainty modeling revealed the true complexity of the consumption process. Assumptions about the stochastic process and decision rule were insufficient to consistently provide decision-grade forecasts, making expert oversight more reliable than fully automated inventory control.
 
-## Project 2 - Evidence Geometry  
+## Project 2 — Evidence Geometry  
 
 ### An Interpretable Evidence-Based Risk Modeling Framework  
 
