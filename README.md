@@ -1,15 +1,13 @@
-# Applied Decision Science Portfolio  
+# Applied Decision Analytics Portfolio  
 ### Uncertainty-Aware Modeling and Human-in-the-Loop Systems
 
 ## Overview
 
-I am an applied decision scientist building uncertainty-aware forecasting and decision support systems for high-stakes, data-scarce environments. I specialize in Bayesian modeling and human-in-the-loop workflows across regulated domains such as biotech and healthcare.
-
-My work emphasizes principled modeling, honest failure analysis, and designing analytical systems that make automated inference workflows reliable under uncertainity.
+I am an applied decision analyst building uncertainty-aware decision support systems using interpretable statistical modeling, Bayesian inference, and uncertainty modeling in pharma, healthcare and industrial-support operations. My work emphasizes principled modeling, honest failure analysis, and designing analytical systems that make automated inference workflows reliable under uncertainity supporting direct human intervention and oversight.
 
 ## Design Philosophy
 
-Most data science portfolios optimize for predictive accuracy in static benchmark settings. My work instead focuses on **decision-grade reliability** in real operational environments characterized by sparse data, nonstationarity, and asymmetric failure costs.
+Most data science systems optimize for predictive accuracy in static benchmark settings. My work instead focuses on **decision-grade reliability** in real operational environments characterized by sparse data and asymmetric failure costs.
 
 Across projects, I design systems that:
 - Explicitly model uncertainty rather than collapsing it into point predictions
