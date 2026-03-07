@@ -3,7 +3,7 @@
 
 ## Overview
 
-I am an applied decision analyst building uncertainty-aware decision support systems using interpretable statistical modeling, Bayesian inference, and uncertainty modeling in pharma, healthcare and industrial-support operations. My work emphasizes principled modeling, honest failure analysis, and designing analytical systems that make automated inference workflows reliable under uncertainity supporting direct human intervention and oversight.
+I am an applied decision analyst building uncertainty-aware decision support systems using interpretable statistical and ML modeling, Bayesian inference, and uncertainty modeling in pharma, healthcare and industrial-support operations. My work emphasizes principled modeling, honest failure analysis, and designing analytical systems that make automated inference workflows reliable under uncertainity supporting direct human intervention and oversight.
 
 ## Design Philosophy
 
