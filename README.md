@@ -84,23 +84,23 @@ This connects the framework to **classical likelihood ratio testing and Bayesian
 
 For each case, the framework computes three complementary signals in the evidence space.  
 
-- **Distance Contrast** (`d_dist`)  
+#### **Distance Contrast** (`d_dist`)  
 
-    Difference in Mahalanobis distance to the learned class manifolds.  
+Difference in Mahalanobis distance to the learned class manifolds.  
 
-    Measures which class distribution better explains the case.  
+Measures which class distribution better explains the case.  
   
-- **Drift Projection** (`proj`)  
+#### **Drift Projection** (`proj`)  
 
-    Projection of evidence deviations from negative class manifold onto the mean class separation direction.  
+Projection of evidence deviations from negative class manifold onto the mean class separation direction.  
 
-    Captures net accumulation of evidence toward the positive class.  
+Captures net accumulation of evidence toward the positive class.  
   
-- **Eigenmode Bundle Energy** (`E_pos`)  
+#### **Eigenmode Bundle Energy** (`E_pos`)  
 
-    Energy along dominant covariance eigenmodes (principal component axes) of the positive class.  
+Energy along dominant covariance eigenmodes (principal component axes) of the positive class.  
   
-    Detects activation of correlated pathological feature bundles.  
+Detects activation of correlated pathological feature bundles.  
 
 ### Current Status
 
