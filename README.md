@@ -54,7 +54,7 @@ This produces a representation where:
 - samples can be analyzed relative to class-specific distributions
 
 **Derived signals:**  
-- `d\_dist` — relative proximity to class distributions
+- `d_dist` — relative proximity to class distributions
 - `proj` — directional accumulation of feature-level deviations 
 
 ### Links
