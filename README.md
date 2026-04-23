@@ -45,7 +45,7 @@ Instead of relying solely on model outputs, the approach enables **analysis of f
 
 Each feature contributes log-likelihood ratio evidence:  
 
-log p(x_i \| positive class) − log p(x_i \| negative class)  
+`log p(x_i | positive class) − log p(x_i | negative class)` 
   
 This produces a representation where:  
 
