@@ -15,25 +15,7 @@ Across projects, I focus on:
 - evaluating model behavior under changing data conditions
 - incorporating human oversight where automated decisions are uncertain
 
-## Project 1 — Decision-Aware Stochastic Consumption Forecasting
-
-This project explores inventory forecasting under limited and variable data using a Bayesian approach.
-
-Key components:
-- Poisson–Gamma modeling of consumption rates
-- posterior predictive forecasting (Negative Binomial)
-- simulation-based decision policies for restocking
-- evaluation under non-stationary demand 
-  
-**Artifacts:**
-- Methods Note (PDF): [https://thefifthpostulate.github.io/projects/stochastic-forecasting.html](https://thefifthpostulate.github.io/projects/stochastic-forecasting.html)  
-- Analysis Notebook: [https://thefifthpostulate.github.io/Stochastic-Consumption-Forecasting/InventoryProject.html](https://thefifthpostulate.github.io/Stochastic-Consumption-Forecasting/InventoryProject.html)
-- Source Code: Available upon request 
-  
-**Takeaway:**
-Explicit uncertainty modeling revealed limitations of fully automated forecasting under non-stationary conditions, highlighting the importance of human-in-the-loop decision-making.  
-
-## Project 2 — Evidence Geometry  
+## Project 1 — Evidence Geometry  
 
 ### Likelihood-Based Feature Transformation for Tabular Data 
 
@@ -60,4 +42,23 @@ This produces a representation where:
 ### Links
 - **GitHub Repo**: [https://github.com/TheFifthPostulate/evidence-geometry/tree/main](https://github.com/TheFifthPostulate/evidence-geometry/tree/main)  
 - **Breast Cancer Wisconsin Notebook**: [https://thefifthpostulate.github.io/evidence-geometry/bcw_analysis.html](https://thefifthpostulate.github.io/evidence-geometry/bcw_analysis.html)  
-- **Cleveland Heart Disease**: [https://thefifthpostulate.github.io/evidence-geometry/heartdisease_analysis.html](https://thefifthpostulate.github.io/evidence-geometry/heartdisease_analysis.html)  
+- **Cleveland Heart Disease**: [https://thefifthpostulate.github.io/evidence-geometry/heartdisease_analysis.html](https://thefifthpostulate.github.io/evidence-geometry/heartdisease_analysis.html)
+
+## Project 2 — Decision-Aware Stochastic Consumption Forecasting
+
+This project explores inventory forecasting under limited and variable data using a Bayesian approach.
+
+Key components:
+- Poisson–Gamma modeling of consumption rates
+- posterior predictive forecasting (Negative Binomial)
+- simulation-based decision policies for restocking
+- evaluation under non-stationary demand 
+  
+**Artifacts:**
+- Methods Note (PDF): [https://thefifthpostulate.github.io/projects/stochastic-forecasting.html](https://thefifthpostulate.github.io/projects/stochastic-forecasting.html)  
+- Analysis Notebook: [https://thefifthpostulate.github.io/Stochastic-Consumption-Forecasting/InventoryProject.html](https://thefifthpostulate.github.io/Stochastic-Consumption-Forecasting/InventoryProject.html)
+- Source Code: Available upon request 
+  
+**Takeaway:**
+Explicit uncertainty modeling revealed limitations of fully automated forecasting under non-stationary conditions, highlighting the importance of human-in-the-loop decision-making.  
+
