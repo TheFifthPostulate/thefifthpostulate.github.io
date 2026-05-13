@@ -15,7 +15,19 @@ Across projects, I focus on:
 - evaluating model behavior under changing data conditions
 - incorporating human oversight where automated decisions are uncertain
 
-## Project 1 — Evidence Geometry  
+## Project 1 - Interpretable ICU Mortality Risk Stratification and Survival Analysis
+
+**Manuscript under peer review** 
+  
+Developed an interpretable ICU mortality risk modeling framework using MIMIC-IV and eICU data, with cohorts and analysis-ready datasets built from longitudinal clinical measurements including vitals, labs, and GCS. The project uses likelihood-based feature transformations to standardize heterogeneous clinical variables against population baselines, enabling grouped evidence aggregation and interpretable risk characterization.  
+  
+Internal and external validation across hospitals showed stable mortality risk stratification, including consistent identification of low-risk patient populations without retraining. The framework also supports scalable survival analysis across 300+ clinical features, with Kaplan–Meier patterns preserved across datasets.  
+  
+The transformation enabled aggregate of disparate features into comparable groups such that the strength of evidence from each measurement can be viewed relative to the population baseline. This enabled representation of atypicality of each measurement per patient in addition to the population-relative overall mortality risk.  
+  
+**Keywords:** R, SQL, survival analysis, model evaluation, external validation, MIMIC-IV, eICU, interpretable clinical risk modeling.  
+  
+## Project 2 — Evidence Geometry  
 
 ### Likelihood-Based Feature Transformation for Tabular Data 
 
