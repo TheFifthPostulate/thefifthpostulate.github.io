@@ -19,7 +19,7 @@ Across projects, I focus on:
 
 **Manuscript under peer review** 
   
-Developed an interpretable ICU mortality risk modeling framework using MIMIC-IV and eICU data, with cohorts and analysis-ready datasets built from longitudinal clinical measurements including vitals, labs, and GCS. The project uses likelihood-based feature transformations to standardize heterogeneous clinical variables against population baselines, enabling grouped evidence aggregation and interpretable risk characterization.  
+Developed an interpretable ICU mortality risk modeling framework using MIMIC-IV and eICU data, with cohorts and analysis-ready datasets built from longitudinal clinical measurements including vitals, labs, and GCS. The project uses likelihood-based feature transformations to standardize heterogeneous clinical variables against population baselines, enabling grouped evidence aggregation and interpretable risk characterization. This technique is explained more in detail in **Project 2**.  
   
 Internal and external validation across hospitals showed stable mortality risk stratification, including consistent identification of low-risk patient populations without retraining. The framework also supports scalable survival analysis across 300+ clinical features, with Kaplan–Meier patterns preserved across datasets.  
   
