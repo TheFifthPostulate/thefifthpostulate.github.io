@@ -23,7 +23,7 @@ Developed an interpretable ICU mortality risk modeling framework using MIMIC-IV 
   
 Internal and external validation across hospitals showed stable mortality risk stratification, including consistent identification of low-risk patient populations without retraining. The framework also supports scalable survival analysis across 300+ clinical features, with Kaplan–Meier patterns preserved across datasets.  
   
-The transformation enabled aggregate of disparate features into comparable groups such that the strength of evidence from each measurement can be viewed relative to the population baseline. This enabled representation of atypicality of each measurement per patient in addition to the population-relative overall mortality risk.  
+The transformation enabled aggregation of disparate features into comparable groups such that the strength of evidence from each measurement can be viewed relative to the population baseline. This enabled representation of atypicality of each measurement per patient in addition to the population-relative overall mortality risk.  
   
 **Keywords:** R, SQL, survival analysis, model evaluation, external validation, MIMIC-IV, eICU, interpretable clinical risk modeling.  
   
