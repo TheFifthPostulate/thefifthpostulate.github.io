@@ -56,7 +56,7 @@ This produces a representation where:
 - **Breast Cancer Wisconsin Notebook**: [https://thefifthpostulate.github.io/evidence-geometry/bcw_analysis.html](https://thefifthpostulate.github.io/evidence-geometry/bcw_analysis.html)  
 - **Cleveland Heart Disease**: [https://thefifthpostulate.github.io/evidence-geometry/heartdisease_analysis.html](https://thefifthpostulate.github.io/evidence-geometry/heartdisease_analysis.html)
 
-## Project 2 — Decision-Aware Stochastic Consumption Forecasting
+## Project 3 — Decision-Aware Stochastic Consumption Forecasting
 
 This project explores inventory forecasting under limited and variable data using a Bayesian approach.
 
